@@ -24,4 +24,23 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.paragraph_link {
+  color: blue;
+}
+
+.blue_gradient {
+  @apply bg-gradient-to-r from-blue-700 to-cyan-400 bg-clip-text text-transparent;
+}
+
+.blue_gradient:hover {
+  @apply bg-gradient-to-r from-blue-900 to-blue-900 bg-clip-text text-transparent;
 }

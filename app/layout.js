@@ -1,7 +1,14 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Swanky_and_Moo_Moo } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const swanky_and_moo_moo = Swanky_and_Moo_Moo(
+  { 
+    subsets: ['latin'] ,
+    weight: ['400'],
+})
+
+import Nav from '@components/Nav';
+import Footer from '@components/Footer';
 
 export const metadata = {
   title: 'Create Next App',
@@ -10,8 +17,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang='en' className={swanky_and_moo_moo.className}>
+        <body>
+          <div className='flex flex-col'>
+            <Nav/>
+            <main className='app'>
+              {children}
+            </main>
+            <Footer/>
+          </div>
+        </body>
     </html>
   )
 }
