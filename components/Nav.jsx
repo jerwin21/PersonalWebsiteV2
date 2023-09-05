@@ -3,11 +3,33 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import useHoverImage from '@hooks/useHoverImage';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-const Nav = () => {
+const Nav = ({pathName}) => {
     const [selectedPage, setSelectedPage] = useState('');
+    console.log("nav pathname " + pathName);
     
+// Function to update selectedPage based on the current route
+const updateSelectedPage = () => {
+    console.log("Inside nav update: " + pathName)
+    
+    if (pathName === '/') {
+        setSelectedPage('home');
+    } else if (pathName === '/projects') {
+        setSelectedPage('projects');
+    } else if (pathName === '/workschool') {
+        setSelectedPage('workschool');
+    } else if (pathName === '/about') {
+        setSelectedPage('about');
+    }
+    };
+
+    // Listen for route changes and update selectedPage accordingly
+    useEffect(() => {
+        setSelectedPage(pathName);
+        updateSelectedPage();
+    }, [pathName]);
+
     const [titleImageSrc, setTitleImageHover, setTitleImageUnselect] = useHoverImage(
         '/assets/JohnErwinUnselected.svg',
         '/assets/JohnErwinSelected.svg',
