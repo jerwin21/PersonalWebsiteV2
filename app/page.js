@@ -11,7 +11,7 @@ export default function Home() {
             alt='John Erwin says Hello!'
             width={700}
             height={200}
-            />
+          />
 
           <h1 className='text-center text-4xl'>
           My name is <span className='text-6xl'>John Erwin</span>. I'm a software engineer living in Boulder, CO. <br/>

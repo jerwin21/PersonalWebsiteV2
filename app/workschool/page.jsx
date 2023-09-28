@@ -1,7 +1,9 @@
+import TapedImage from "@components/TapedImage";
 
 const WorkSchool = () => {
   return (
-    <div>Work and School</div>
+  <TapedImage imageUrl='/assets/GSLApp.PNG'/>
+  
   )
 }
 

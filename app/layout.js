@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en' className={swanky_and_moo_moo.className}>
         <body>
-          <div className='flex flex-col'>
+          <div className='flex flex-col align-middle'>
             <Nav pathName={pathName}/>
             <main className='app'>
               {children}

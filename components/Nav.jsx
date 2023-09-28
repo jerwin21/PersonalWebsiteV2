@@ -7,11 +7,9 @@ import { useState, useEffect } from 'react';
 
 const Nav = ({pathName}) => {
     const [selectedPage, setSelectedPage] = useState('');
-    console.log("nav pathname " + pathName);
     
 // Function to update selectedPage based on the current route
 const updateSelectedPage = () => {
-    console.log("Inside nav update: " + pathName)
     
     if (pathName === '/') {
         setSelectedPage('home');
