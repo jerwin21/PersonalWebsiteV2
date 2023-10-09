@@ -18,31 +18,45 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(-90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(
+      transparent 3px,
+      #f2f2f2 3px,
+      #f2f2f2 78px,
+      transparent 78px
+    ),
+    linear-gradient(-90deg, #aaa 1px, transparent 1px),
+    linear-gradient(
+      -90deg,
+      transparent 3px,
+      #f2f2f2 3px,
+      #f2f2f2 78px,
+      transparent 78px
+    ),
+    linear-gradient(#aaa 1px, transparent 1px), #f2f2f2;
+  background-size:
+    4px 4px,
+    4px 4px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px;
   min-height: 100vh;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 87vh;
 }
 
 .paragraph_link {
   color: blue;
-}
-
-.blue_gradient {
-  @apply bg-gradient-to-r from-blue-700 to-cyan-400 bg-clip-text text-transparent;
-}
-
-.blue_gradient:hover {
-  @apply bg-gradient-to-r from-blue-900 to-blue-900 bg-clip-text text-transparent;
 }
 
 .project-chip {
@@ -71,41 +85,11 @@ body {
   border-image-repeat: stretch;
 }
 
-.image-container {
-  display: inline-block;
-  position: relative;
-}
-
-.image {
-  display: block;
-  max-width: 100%;
-}
-
 .tape {
   position: absolute;
   width: 100px; /* Adjust the width of the tape */
   height: 200px; /* Adjust the height of the tape */
-  background-image: url('/assets/CornerTape.png'); /* Path to your tape image */
-}
-
-.tape.top-left {
-  top: 0;
-  left: 0;
-}
-
-.tape.top-right {
-  top: 0;
-  right: 0;
-}
-
-.tape.bottom-left {
-  bottom: 0;
-  left: 0;
-}
-
-.tape.bottom-right {
-  bottom: 0;
-  right: 0;
+  background-image: url("/assets/CornerTape.png"); /* Path to your tape image */
 }
 
 .parent {
@@ -117,7 +101,9 @@ body {
   display: inline-block;
 }
 
-.image1 {
+.main-image {
+  max-width: 100%;
+  min-width: 300px;
   position: relative;
   top: 0;
   left: 0;
@@ -149,4 +135,55 @@ body {
   top: -3px;
   left: -3px;
   transform: rotate(45deg);
+}
+
+mark {
+  background-color: none;
+  background: linear-gradient(90deg, #fbf719 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  transform: skewX(-10deg);
+}
+
+mark:hover {
+  background-color: none;
+  background: linear-gradient(90deg, #8cd7ff 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  transform: skewX(-10deg);
+}
+
+@-webkit-keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+@keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+.mark1 {
+  -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+  animation: 1.5s highlight 1.5s 1 normal forwards;
+}
+
+/* Animation for the second piece of text */
+.mark2 {
+  -webkit-animation: 1.5s highlight 3s 1 normal forwards;
+  animation: 1.5s highlight 3s 1 normal forwards;
+}
+
+/* Animation for the third piece of text */
+.mark3 {
+  -webkit-animation: 1.5s highlight 4.5s 1 normal forwards;
+  animation: 1.5s highlight 4.5s 1 normal forwards;
 }

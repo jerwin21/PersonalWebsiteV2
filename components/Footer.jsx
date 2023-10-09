@@ -1,14 +1,13 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className="flex flex-col align-middle">
-      <div className='flex flex-col align-middle'>
-        <p>@ 2023 John Erwin All Rights Reserved</p>
+      <div className="flex flex-col align-middle">
+        <p className="text-center">@ 2023 John Erwin All Rights Reserved</p>
       </div>
     </div>
-    
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
