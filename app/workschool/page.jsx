@@ -13,7 +13,7 @@ const experience = {
   description: `I have over 50 solo victory royales and triple digit victory royales when playing with a squad.
   I only play 0 builds tho. I love the gold scar`,
   roles: [
-    `God i miss loot lake. why did they get rid of it. So dumb.`,
+    `God i miss loot lake hugeol -fuckingword. why did they get rid of it. So dumb.`,
     `moisty mire was another one of my favorites. Right over by the prison. We would hit that, then the prison and have a good time`,
     `tilted towers was cool too. i heard that's back`,
   ],
@@ -26,7 +26,7 @@ const experience = {
 
 const WorkSchool = () => {
   return (
-    <div className="flex flex-col items-center m-20">
+    <div className="flex flex-col items-center m-2">
       <Experience experience={experience} />
     </div>
   );

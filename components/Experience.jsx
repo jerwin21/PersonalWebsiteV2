@@ -6,24 +6,26 @@ const Experience = ({ experience }) => {
   return (
     <div className="flex flex-col hand-drawn-border w-full p-4 max-w-6xl">
       <div>
-        <p className="text-3xl ml-6">
+        <p className="text-xl sm:text-3xl ">
           {experience.duration.start} - {experience.duration.end}
         </p>
       </div>
       <div className="flex items-center">
         <h1>
-          <span className="text-7xl underline">{experience.title}</span>
-          <span className="text-4xl"> @ </span>
-          <span className="text-5xl">{experience.company}</span>
+          <span className="text-4xl sm:text-6xl underline">
+            {experience.title}
+          </span>
+          <span className="text-2xl"> @ </span>
+          <span className="text-5xl sm:text-6xl">{experience.company}</span>
         </h1>
       </div>
-      <div className="mx-6 mt-4 mb-2">
+      <div className=" sm:mt-1 mb-2">
         <p className="text-2xl">{experience.description}</p>
       </div>
       <div>
         <h1 className="text-4xl underline">Responsibilities</h1>
       </div>
-      <div className="mx-6">
+      <div className="border border-green-500">
         <ul className="list-disc">
           {experience.roles.map((role, index) => (
             <li className="text-2xl">{role}</li>

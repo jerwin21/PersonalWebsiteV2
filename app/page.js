@@ -19,24 +19,31 @@ export default function Home() {
             Full Stack Software Engineer <br />
             PenLink <br />
             Boulder CO <br />
-            <div className="p-10">
+            <div className="p-10 container">
               <ul className="list-disc">
                 <li className="my-5">
                   <a href="/projects" className="text-4xl">
                     {" "}
-                    <mark className="mark1">projects</mark>{" "}
+                    <span className="highlight-container">
+                      <span className="highlight">projects</span>
+                    </span>{" "}
                   </a>
                   I'm proud of
                 </li>
                 <li className="my-5">
                   <a href="/workschool" className="text-4xl">
-                    work <mark className="mark2">experience</mark>
+                    work{" "}
+                    <span className="highlight-container">
+                      <span className="highlight">experience</span>
+                    </span>
                   </a>
                 </li>
                 <li className="my-5">
                   <a href="/about" className="text-4xl">
                     {" "}
-                    <mark className="mark3"> about</mark>{" "}
+                    <span className="highlight-container">
+                      <span className="highlight"> about</span>{" "}
+                    </span>
                   </a>{" "}
                   me
                 </li>
