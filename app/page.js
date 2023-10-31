@@ -50,9 +50,6 @@ export default function Home() {
               </ul>
             </div>
           </h1>
-          <div>
-            <h1>whole bunch of text</h1>
-          </div>
         </div>
       </div>
     </section>

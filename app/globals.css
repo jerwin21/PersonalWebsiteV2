@@ -115,10 +115,24 @@ body {
   transform: rotate(-45deg);
 }
 
+.tape-top-right-small {
+  position: absolute;
+  top: -15px;
+  right: -30px;
+  transform: rotate(-45deg);
+}
+
 .tape-bottom-right {
   position: absolute;
   bottom: -45px;
   right: -60px;
+  transform: rotate(45deg);
+}
+
+.tape-bottom-right-small {
+  position: absolute;
+  bottom: -15px;
+  right: -30px;
   transform: rotate(45deg);
 }
 
@@ -129,10 +143,24 @@ body {
   transform: rotate(-45deg);
 }
 
+.tape-bottom-left-small {
+  position: absolute;
+  bottom: -15px;
+  left: -30px;
+  transform: rotate(-45deg);
+}
+
 .tape-top-left {
   position: absolute;
   top: -45px;
   left: -60px;
+  transform: rotate(45deg);
+}
+
+.tape-top-left-small {
+  position: absolute;
+  top: -15px;
+  left: -30px;
   transform: rotate(45deg);
 }
 

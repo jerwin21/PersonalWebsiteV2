@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TechChip = ({ technology }) => {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center m-1">
       <div className="flex items-center bg-yellow-200 px-1 mx-2 border-gray-400 border-b-2 border-r-2">
         {technology.logo && (
           <div className="mr-2 min-w-[20px]">
@@ -15,8 +15,10 @@ const TechChip = ({ technology }) => {
             />
           </div>
         )}
-        <div className="border border-green-500">
-          <h1 className="text-lg text-center">{technology.title}</h1>
+        <div className="">
+          <h1 className="text-lg text-center whitespace-nowrap">
+            {technology.title}
+          </h1>
         </div>
       </div>
     </div>

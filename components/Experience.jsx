@@ -25,14 +25,14 @@ const Experience = ({ experience }) => {
       <div>
         <h1 className="text-4xl underline">Responsibilities</h1>
       </div>
-      <div className="border border-green-500">
+      <div className="">
         <ul className="list-disc">
           {experience.roles.map((role, index) => (
             <li className="text-2xl">{role}</li>
           ))}
         </ul>
       </div>
-      <div className="flex justify-center mt-2">
+      <div className="flex justify-center flex-wrap mt-2">
         {experience.technologies.map((technology, index) => (
           <TechChip key={index} technology={technology} />
         ))}

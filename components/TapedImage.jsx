@@ -4,7 +4,7 @@ const TapedImage = (props) => {
   const { imageUrl } = props;
   return (
     <div>
-      <div className="parent border border-green-500">
+      <div className="parent">
         <div className="overlay flex justify-center align-middle px-0">
           <img
             src={imageUrl}
@@ -20,9 +20,22 @@ const TapedImage = (props) => {
           />
           <img
             src="/assets/CornerTape.png"
+            className="tape-top-right-small sm:hidden"
+            height={100}
+            width={75}
+          />
+
+          <img
+            src="/assets/CornerTape.png"
             className="tape-bottom-right hidden sm:block"
             height={200}
             width={150}
+          />
+          <img
+            src="/assets/CornerTape.png"
+            className="tape-bottom-right-small sm:hidden"
+            height={100}
+            width={75}
           />
           <img
             src="/assets/CornerTape.png"
@@ -32,9 +45,21 @@ const TapedImage = (props) => {
           />
           <img
             src="/assets/CornerTape.png"
+            className="tape-bottom-left-small sm:hidden"
+            height={100}
+            width={75}
+          />
+          <img
+            src="/assets/CornerTape.png"
             className="tape-top-left hidden sm:block"
             height={200}
             width={150}
+          />
+          <img
+            src="/assets/CornerTape.png"
+            className="tape-top-left-small sm:hidden"
+            height={100}
+            width={75}
           />
         </div>
       </div>

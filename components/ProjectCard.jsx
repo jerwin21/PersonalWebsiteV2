@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
               {project.description}
             </h1>
           </div>
-          <div className="flex">
+          <div className="flex flex-wrap justify-center">
             {project.technologies.map((technology, index) => (
               <TechChip key={index} technology={technology} />
             ))}

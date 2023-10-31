@@ -64,8 +64,8 @@ const Nav = ({ pathName }) => {
 
   return (
     <div>
-      <nav className="flex justify-between w-full mb-2 pt-3 border border-green-500">
-        <div className="border border-blue-400">
+      <nav className="flex justify-between w-full mb-2 pt-3">
+        <div className="">
           <Link
             href="/"
             className="flex gap-2 flex-center ml-2"
@@ -82,7 +82,7 @@ const Nav = ({ pathName }) => {
           </Link>
         </div>
 
-        <div className="flex ml-auto gap-2 mr-2 items-center border border-red-400">
+        <div className="flex ml-auto gap-2 mr-2 items-center">
           <Link href="/projects" onClick={() => handleLinkClick("projects")}>
             <Image
               src={projectsImageSrc}
