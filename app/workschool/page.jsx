@@ -1,7 +1,4 @@
-import TapedImage from "@components/TapedImage";
 import Experience from "@components/Experience";
-import gif from "@public/assets/JohnHasAnIdeaTransparent.gif";
-import Image from "next/image";
 
 const experiences = [
   {

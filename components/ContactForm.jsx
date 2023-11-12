@@ -5,8 +5,7 @@ const ContactForm = () => {
   const {
     register,
     handleSubmit,
-    watch,
-    formState: { errors, isSubmitting },
+    formState: { errors },
     reset,
   } = useForm();
 
@@ -53,8 +52,6 @@ const ContactForm = () => {
         className="flex flex-col algin-middle"
         onSubmit={handleSubmit(sendEmail)}
       >
-        {/* register your input into the hook by invoking the "register" function */}
-
         <input
           className="bg-yellow-300 border-b-2 border-dotted border-black p-1 m-1 text-xl sm:text-2xl"
           defaultValue=""

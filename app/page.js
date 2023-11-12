@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Socials from "@components/Socials";
 import Contact from "@components/Contact";
-import gif from "@public/assets/JohnHasAnIdeaTransparent.gif";
 
 export default function Home() {
   return (
