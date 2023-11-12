@@ -17,7 +17,7 @@ const Contact = () => {
     <div className="flex justify-center">
       <h1 className="text-4xl" onClick={openModal}>
         <span className="highlight-container">
-          <span className="highlight"> contact me</span>{" "}
+          <span className="highlight"> get in touch</span>{" "}
         </span>
       </h1>
       <div>

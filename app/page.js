@@ -5,7 +5,7 @@ import Contact from "@components/Contact";
 export default function Home() {
   return (
     <section>
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col justify-start items-center">
           <Image
             className="mb-10"
@@ -15,11 +15,11 @@ export default function Home() {
             height={200}
           />
 
-          <h1 className="text-center text-4xl">
-            <span className="text-8xl">John Erwin</span> <br />
+          <h1 className="text-center text-2xl sm:text-4xl">
+            <span className="text-6xl sm:text-8xl">John Erwin</span> <br />
             Full Stack Software Engineer <br />
             PenLink <br />
-            Boulder CO <br />
+            Boulder, CO <br />
             <div className="px-10 container">
               <ul className="list-disc">
                 <li className="my-5">

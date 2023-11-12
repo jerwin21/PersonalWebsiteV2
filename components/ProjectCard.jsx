@@ -6,7 +6,11 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="flex flex-col items-center hand-drawn-border max-w-4xl">
       <div className="flex flex-col items-center mt-10 mb-1 mx-4">
-        <TapedImage imageUrl={project.imagePath} className="my-10" />
+        <TapedImage
+          imageUrl={project.imagePath}
+          alt={project.title}
+          className="my-10"
+        />
         <div className="flex flex-col items-center">
           <div className="text-center"></div>
           <div>

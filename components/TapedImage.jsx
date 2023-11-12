@@ -1,5 +1,5 @@
 const TapedImage = (props) => {
-  const { imageUrl } = props;
+  const { imageUrl, alt } = props;
   return (
     <div>
       <div className="parent">
@@ -8,6 +8,7 @@ const TapedImage = (props) => {
             src={imageUrl}
             className="main-image my-4 min-w-[100px] border-gray-400 border-b-2 border-r-2"
             width="100%"
+            alt={alt}
           />
 
           <img
