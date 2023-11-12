@@ -2,10 +2,10 @@ import TapedImage from "@components/TapedImage";
 
 const Bio = () => {
   return (
-    <div className="hand-drawn-border py-10 flex flex-col items-center ">
-      <div className="flex flex-col items-center w-[95%] sm:w-[88%]">
+    <div className="py-10 flex flex-col items-center ">
+      <div className="flex flex-col items-center w-[95%] sm:w-[88%] md:w-[80%] lg:my-10">
         <TapedImage imageUrl={"/assets/johnAndBassWBackgroundLandscape.jpg"} />
-        <div className="flex flex-col text-md sm:text-lg leading-tight font-semibold mt-4 space-y-2">
+        <div className="flex flex-col text-md sm:text-lg md:text-2xl leading-tight font-semibold mt-4 space-y-2">
           <p>
             <span className="text-2xl">Hello! I'm John Erwin</span>, <br /> a
             full-stack software engineer and graduate of{" "}

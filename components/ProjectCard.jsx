@@ -10,6 +10,7 @@ const ProjectCard = ({ project }) => {
         <div className="flex flex-col items-center">
           <div className="text-center"></div>
           <div>
+            <h1 className="text-4xl text-center underline">{project.title}</h1>
             <h1 className="text-3xl  text-center mb-2">
               {project.description}
             </h1>

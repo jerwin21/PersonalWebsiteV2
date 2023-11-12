@@ -2,14 +2,16 @@ import ProjectCard from "@components/ProjectCard";
 
 const projects = [
   {
-    title: "Project 1",
+    title: "GSL Data App",
     description: `Livestock Data Analytics utilizing Amazon Web Services and VueJs. A year-long collaboration for Gundmundsen Sandhills Labs in Western Nebraska.`,
     technologies: [
       {
         title: "Amazon Web Services",
         logo: "/assets/AwsLogo.svg",
       },
-      { title: "Fortnite" },
+      { title: "VueJs" },
+      { title: "Lambda" },
+      { title: "Python" },
     ],
     links: {
       demo: "https://demo1.com",
@@ -18,37 +20,22 @@ const projects = [
     imagePath: "/assets/GSLApp.png",
   },
   {
-    title: "Project 1",
-    description: `Livestock Data Analytics utilizing Amazon Web Services and VueJs. A year-long collaboration for Gundmundsen Sandhills Labs in Western Nebraska.`,
+    title: "Developer Portfolio",
+    description: `You're looking at it! A personal website intended to be a digital first impression of myself. Created using NextJs and TailwindCSS it was a great way to learn to technology.`,
     technologies: [
       {
-        title: "Amazon Web Services",
-        logo: "/assets/AwsLogo.svg",
+        title: "Next.Js",
       },
-      { title: "Fortnite" },
+      { title: "Tailwind CSS" },
+      { title: "React.Js" },
     ],
     links: {
       demo: "https://demo1.com",
       github: "https://github.com/project1",
     },
-    imagePath: "/assets/GSLApp.png",
+    imagePath: "/assets/Portfolio.png",
   },
-  {
-    title: "Project 1",
-    description: `Livestock Data Analytics utilizing Amazon Web Services and VueJs. A year-long collaboration for Gundmundsen Sandhills Labs in Western Nebraska.`,
-    technologies: [
-      {
-        title: "Amazon Web Services",
-        logo: "/assets/AwsLogo.svg",
-      },
-      { title: "Fortnite" },
-    ],
-    links: {
-      demo: "https://demo1.com",
-      github: "https://github.com/project1",
-    },
-    imagePath: "/assets/GSLApp.png",
-  },
+
   // Add more projects here
 ];
 

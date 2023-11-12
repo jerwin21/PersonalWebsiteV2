@@ -3,31 +3,64 @@ import Experience from "@components/Experience";
 import gif from "@public/assets/JohnHasAnIdeaTransparent.gif";
 import Image from "next/image";
 
-const experience = {
-  title: "Renegade Raider",
-  company: "Fortnite",
-  duration: {
-    start: "2018",
-    end: "present",
-  },
-  description: `I have over 50 solo victory royales and triple digit victory royales when playing with a squad.
+const experiences = [
+  {
+    title: "Software Development Intern",
+    company: "Penlink",
+    duration: {
+      start: "2021",
+      end: "2022",
+    },
+    description: `I have over 50 solo victory royales and triple digit victory royales when playing with a squad.
   I only play 0 builds tho. I love the gold scar`,
-  roles: [
-    `God i miss loot lake hugeol -fuckingword. why did they get rid of it. So dumb.`,
-    `moisty mire was another one of my favorites. Right over by the prison. We would hit that, then the prison and have a good time`,
-    `tilted towers was cool too. i heard that's back`,
-  ],
-  technologies: [
-    { title: "fortnite" },
-    { title: "solos" },
-    { title: " zero builds" },
-  ],
-};
+    roles: [
+      `Gained familiarity with software development methodologies`,
+      ` Implemented full-stack functionality to add bookmarks to user cases`,
+      ` Maintained software by tracking down issues logged by QA and making appropriate code changes`,
+      ` Learned the importance of software architecture especially while maintaining legacy systems`,
+    ],
+    technologies: [
+      { title: "Azure Devops" },
+      { title: "C#" },
+      { title: "XAML" },
+      { title: "Agile" },
+      { title: "ORACLE SQL" },
+      { title: ".NET" },
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company: "Penlink",
+    duration: {
+      start: "2022",
+      end: "Present",
+    },
+    description: `I have over 50 solo victory royales and triple digit victory royales when playing with a squad.
+  I only play 0 builds tho. I love the gold scar`,
+    roles: [
+      `Collaborate with project management to clarify requirements and timelines for new features and bug fixes`,
+      `Develop new features, modify existing features, and hunt down bugs`,
+      `Conduct time-sensitive hotfixes for customers, ensuring their investigations aren’t hindered by technical issues`,
+      `Learned the importance of software architecture especially while maintaining legacy systems`,
+      `Conduct code review and provide feedback on coworkers’ pull requests to ensure high quality code standards`,
+    ],
+    technologies: [
+      { title: "Azure Devops" },
+      { title: "C#" },
+      { title: "XAML" },
+      { title: "Agile" },
+      { title: "ORACLE SQL" },
+      { title: ".NET" },
+    ],
+  },
+];
 
 const WorkSchool = () => {
   return (
     <div className="flex flex-col items-center m-2">
-      <Experience experience={experience} />
+      {experiences.map((experience, index) => (
+        <Experience key={index} experience={experience} />
+      ))}
     </div>
   );
 };

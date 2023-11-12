@@ -8,7 +8,7 @@ const TapedImage = (props) => {
         <div className="overlay flex justify-center align-middle px-0">
           <img
             src={imageUrl}
-            className="main-image my-4 min-w-[100px]"
+            className="main-image my-4 min-w-[100px] border-gray-400 border-b-2 border-r-2"
             width="100%"
           />
 
