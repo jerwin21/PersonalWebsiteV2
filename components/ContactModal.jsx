@@ -13,7 +13,7 @@ const ContactModal = ({ isOpen, onClose }) => {
             <ContactForm />
           </div>
           <button className="hover:underline" onClick={onClose}>
-            Close Modal
+            Close
           </button>
         </div>
       </div>

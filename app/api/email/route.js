@@ -6,7 +6,7 @@ export const POST = async (req) => {
 
     let response = await SendEmail(name, email, message);
 
-    //console.log(response);
+    console.debug(response);
 
     return new Response("Email sent successfully", { status: 200 });
   } catch (error) {
