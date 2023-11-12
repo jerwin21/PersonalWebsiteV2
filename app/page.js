@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Socials from "@components/Socials";
+import Contact from "@components/Contact";
 import gif from "@public/assets/JohnHasAnIdeaTransparent.gif";
 
 export default function Home() {
@@ -19,7 +21,7 @@ export default function Home() {
             Full Stack Software Engineer <br />
             PenLink <br />
             Boulder CO <br />
-            <div className="p-10 container">
+            <div className="px-10 container">
               <ul className="list-disc">
                 <li className="my-5">
                   <a href="/projects" className="text-4xl">
@@ -47,10 +49,14 @@ export default function Home() {
                   </a>{" "}
                   me
                 </li>
+                <li>
+                  <Contact />
+                </li>
               </ul>
             </div>
           </h1>
         </div>
+        <Socials />
       </div>
     </section>
   );
