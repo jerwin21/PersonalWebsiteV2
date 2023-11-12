@@ -1,26 +1,12 @@
-import nodemailer from "nodemailer";
+import { SendEmail } from "@utils/SendEmail";
 
 export const POST = async (req) => {
   try {
     const { name, email, message } = await req.json();
 
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: "johnerwin73@gmail.com",
-        pass: "boqj yxnu ytyi orqh",
-      },
-    });
+    let response = await SendEmail(name, email, message);
 
-    const options = {
-      from: email,
-      to: "johnerwin73@gmail.com",
-      subject: name,
-      html: `<p>${message}</p>`,
-    };
-
-    const response = await transporter.sendMail(options);
-    console.log(response);
+    //console.log(response);
 
     return new Response("Email sent successfully", { status: 200 });
   } catch (error) {
