@@ -17,7 +17,7 @@ const projects = [
       demo: "https://demo1.com",
       github: "https://github.com/project1",
     },
-    imagePath: "/static/images/GSLApp.png",
+    imagePath: "/static/images/GSLApp.PNG",
   },
   {
     title: "Developer Portfolio",
