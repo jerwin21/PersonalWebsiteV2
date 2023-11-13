@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className="flex flex-col md:flex-row sm:justify-center w-[95%] sm:w-[88%] font-semibold">
       <Image
-        src={"/assets/UniversityNebraskaLogo.png"}
+        src={"/static/images/UniversityNebraskaLogo.png"}
         width={200}
         height={200}
         className="self-center"

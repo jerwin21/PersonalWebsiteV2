@@ -7,7 +7,7 @@ const projects = [
     technologies: [
       {
         title: "Amazon Web Services",
-        logo: "/assets/AwsLogo.svg",
+        logo: "/static/images/AwsLogo.svg",
       },
       { title: "VueJs" },
       { title: "Lambda" },
@@ -17,7 +17,7 @@ const projects = [
       demo: "https://demo1.com",
       github: "https://github.com/project1",
     },
-    imagePath: "/assets/GSLApp.png",
+    imagePath: "/static/images/GSLApp.png",
   },
   {
     title: "Developer Portfolio",
@@ -33,7 +33,7 @@ const projects = [
       demo: "https://demo1.com",
       github: "https://github.com/project1",
     },
-    imagePath: "/assets/Portfolio.png",
+    imagePath: "/static/images/Portfolio.png",
   },
 
   // Add more projects here

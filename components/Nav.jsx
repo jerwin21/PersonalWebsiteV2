@@ -29,15 +29,15 @@ const Nav = ({ pathName }) => {
 
   const [titleImageSrc, setTitleImageHover, setTitleImageUnselect] =
     useHoverImage(
-      "/assets/JohnErwinUnselected.svg",
-      "/assets/JohnErwinSelected.svg",
+      "/static/images/JohnErwinUnselected.svg",
+      "/static/images/JohnErwinSelected.svg",
       selectedPage === "home"
     );
 
   const [projectsImageSrc, setProjectsImageHover, setProjectsImageUnselect] =
     useHoverImage(
-      "/assets/ProjectsUnselected.svg",
-      "/assets/ProjectsSelected.svg",
+      "/static/images/ProjectsUnselected.svg",
+      "/static/images/ProjectsSelected.svg",
       selectedPage === "projects"
     );
 
@@ -46,15 +46,15 @@ const Nav = ({ pathName }) => {
     setWorkSchoolImageHover,
     setWorkSchoolImageUnselect,
   ] = useHoverImage(
-    "/assets/ExperienceUnselected.svg",
-    "/assets/ExperienceSelected.svg",
+    "/static/images/ExperienceUnselected.svg",
+    "/static/images/ExperienceSelected.svg",
     selectedPage === "workschool"
   );
 
   const [aboutImageSrc, setAboutImageHover, setAboutImageUnselect] =
     useHoverImage(
-      "/assets/AboutUnselected.svg",
-      "/assets/AboutSelected.svg",
+      "/static/images/AboutUnselected.svg",
+      "/static/images/AboutSelected.svg",
       selectedPage === "about"
     );
 

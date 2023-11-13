@@ -32,7 +32,11 @@ const ProjectCard = ({ project }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src="/assets/GithubLink.svg" width={35} height={35} />
+              <Image
+                src="/static/images/GithubLink.svg"
+                width={35}
+                height={35}
+              />
             </a>
           )}
           {project.links.demo && (
@@ -41,7 +45,7 @@ const ProjectCard = ({ project }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image src="/assets/WebLink.svg" width={35} height={35} />
+              <Image src="/static/images/WebLink.svg" width={35} height={35} />
             </a>
           )}
         </div>

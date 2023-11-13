@@ -79,7 +79,7 @@ body {
 
 .hand-drawn-border {
   border: 50px solid black;
-  border-image-source: url(/assets/HandDrawnBorder.png);
+  border-image-source: url(/static/images/HandDrawnBorder.png);
   border-image-slice: 45%;
   border-image-width: 1925px;
   border-image-repeat: stretch;
@@ -89,7 +89,7 @@ body {
   position: absolute;
   width: 100px; /* Adjust the width of the tape */
   height: 200px; /* Adjust the height of the tape */
-  background-image: url("/assets/CornerTape.png"); /* Path to your tape image */
+  background-image: url("/static/images/CornerTape.png"); /* Path to your tape image */
 }
 
 .parent {

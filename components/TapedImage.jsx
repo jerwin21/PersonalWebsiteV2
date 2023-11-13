@@ -12,50 +12,50 @@ const TapedImage = (props) => {
           />
 
           <img
-            src="/assets/CornerTape.png"
+            src="/static/images/CornerTape.png"
             className="tape-top-right hidden sm:block"
             height={200}
             width={150}
           />
           <img
-            src="/assets/CornerTape.png"
+            src="/static/images/CornerTape.png"
             className="tape-top-right-small sm:hidden"
             height={100}
             width={75}
           />
 
           <img
-            src="/assets/CornerTape.png"
+            src="/static/images/CornerTape.png"
             className="tape-bottom-right hidden sm:block"
             height={200}
             width={150}
           />
           <img
-            src="/assets/CornerTape.png"
+            src="/static/images/CornerTape.png"
             className="tape-bottom-right-small sm:hidden"
             height={100}
             width={75}
           />
           <img
-            src="/assets/CornerTape.png"
+            src="/static/images/CornerTape.png"
             className="tape-bottom-left hidden sm:block"
             height={200}
             width={150}
           />
           <img
-            src="/assets/CornerTape.png"
+            src="/static/images/CornerTape.png"
             className="tape-bottom-left-small sm:hidden"
             height={100}
             width={75}
           />
           <img
-            src="/assets/CornerTape.png"
+            src="/static/images/CornerTape.png"
             className="tape-top-left hidden sm:block"
             height={200}
             width={150}
           />
           <img
-            src="/assets/CornerTape.png"
+            src="/static/images/CornerTape.png"
             className="tape-top-left-small sm:hidden"
             height={100}
             width={75}

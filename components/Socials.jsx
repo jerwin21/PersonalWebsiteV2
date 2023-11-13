@@ -11,7 +11,7 @@ const Socials = () => {
           rel="noopener noreferrer"
         >
           <Image
-            src="/assets/GithubLink.svg"
+            src="/static/images/GithubLink.svg"
             width={75}
             height={75}
             alt="Github link"
@@ -23,7 +23,7 @@ const Socials = () => {
           rel="noopener noreferrer"
         >
           <Image
-            src="/assets/InstagramLogo.svg"
+            src="/static/images/InstagramLogo.svg"
             width={75}
             height={75}
             alt="Instagram link"
@@ -35,7 +35,7 @@ const Socials = () => {
           rel="noopener noreferrer"
         >
           <Image
-            src="/assets/LinkedInLogo.svg"
+            src="/static/images/LinkedInLogo.svg"
             width={75}
             height={75}
             alt="LinkedIn link"
@@ -48,9 +48,13 @@ const Socials = () => {
           href={"https://github.com/jerwin21"}
           target="_blank"
           rel="noopener noreferrer"
-          alt="Github link"
         >
-          <Image src="/assets/GithubLink.svg" width={40} height={40} />
+          <Image
+            src="/static/images/GithubLink.svg"
+            width={40}
+            height={40}
+            alt="Github link"
+          />
         </a>
         <a
           href={"https://instagram.com/jim_ervins"}
@@ -58,7 +62,7 @@ const Socials = () => {
           rel="noopener noreferrer"
         >
           <Image
-            src="/assets/InstagramLogo.svg"
+            src="/static/images/InstagramLogo.svg"
             width={40}
             height={40}
             alt="Instagram link"
@@ -70,7 +74,7 @@ const Socials = () => {
           rel="noopener noreferrer"
         >
           <Image
-            src="/assets/LinkedInLogo.svg"
+            src="/static/images/LinkedInLogo.svg"
             width={40}
             height={40}
             alt="LinkedIn link"

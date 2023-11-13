@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="flex flex-col align-middle">
       <div className="flex flex-col align-middle items-center">
         <Image
-          src="/assets/JohnHasAnIdeaTransparent.gif"
+          src="/static/images/JohnHasAnIdeaTransparent.gif"
           alt="Middle Image"
           width={150} // Adjust the width based on your requirements
           height={150} // Adjust the height based on your requirements

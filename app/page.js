@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col justify-start items-center">
           <Image
             className="mb-10"
-            src="/assets/JohnErwinHello.png"
+            src="/static/images/JohnErwinHello.png"
             alt="John Erwin says Hello!"
             width={700}
             height={200}

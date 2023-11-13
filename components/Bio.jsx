@@ -5,7 +5,7 @@ const Bio = () => {
     <div className="py-10 flex flex-col items-center ">
       <div className="flex flex-col items-center w-[95%] sm:w-[88%] md:w-[80%] lg:my-10">
         <TapedImage
-          imageUrl={"/assets/johnAndBassWBackgroundLandscape.jpg"}
+          imageUrl={"/static/images/johnAndBassWBackgroundLandscape.jpg"}
           alt="John with a big one"
         />
         <div className="flex flex-col text-md sm:text-lg md:text-2xl leading-tight font-semibold mt-4 space-y-2">
