@@ -23,7 +23,7 @@ const Socials = () => {
           rel="noopener noreferrer"
         >
           <Image
-            src="/static/images/InstagramLogo.svg"
+            src="/static/images/instagramlogo.svg"
             width={75}
             height={75}
             alt="Instagram link"
@@ -35,7 +35,7 @@ const Socials = () => {
           rel="noopener noreferrer"
         >
           <Image
-            src="/static/images/LinkedInLogo.svg"
+            src="/static/images/inkedinlogo.svg"
             width={75}
             height={75}
             alt="LinkedIn link"
