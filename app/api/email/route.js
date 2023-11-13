@@ -12,6 +12,9 @@ export const POST = async (req) => {
   } catch (error) {
     console.log("we got an error!");
     console.log(error);
-    return new Response(`Email failed to send: ${error} `, { status: 500 });
+    return new Response(
+      `Email failed to send: ${error} ${process.env.USER_EMAIL}`,
+      { status: 500 }
+    );
   }
 };
