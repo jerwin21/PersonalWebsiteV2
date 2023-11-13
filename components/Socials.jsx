@@ -35,7 +35,7 @@ const Socials = () => {
           rel="noopener noreferrer"
         >
           <Image
-            src="/static/images/inkedinlogo.svg"
+            src="/static/images/linkedinlogo.svg"
             width={75}
             height={75}
             alt="LinkedIn link"
