@@ -4,7 +4,7 @@ import TapedImage from "@components/TapedImage";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="flex flex-col items-center hand-drawn-border max-w-4xl">
+    <div className="flex flex-col items-center hand-drawn-border max-w-4xl px-2 sm:pb-4">
       <div className="flex flex-col items-center mt-10 mb-1 mx-4">
         <TapedImage
           imageUrl={project.imagePath}
@@ -14,8 +14,10 @@ const ProjectCard = ({ project }) => {
         <div className="flex flex-col items-center">
           <div className="text-center"></div>
           <div>
-            <h1 className="text-4xl text-center underline">{project.title}</h1>
-            <h1 className="text-3xl  text-center mb-2">
+            <h1 className="text-4xl text-center font-semibold underline">
+              {project.title}
+            </h1>
+            <h1 className="text-xl sm:text-2xl  text-center mb-2">
               {project.description}
             </h1>
           </div>

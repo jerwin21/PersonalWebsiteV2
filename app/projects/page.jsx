@@ -13,15 +13,12 @@ const projects = [
       { title: "Lambda" },
       { title: "Python" },
     ],
-    links: {
-      demo: "https://demo1.com",
-      github: "https://github.com/project1",
-    },
+    links: {},
     imagePath: "/static/images/GSLApp.PNG",
   },
   {
     title: "Developer Portfolio",
-    description: `You're looking at it! A personal website intended to be a digital first impression of myself. Created using NextJs and TailwindCSS it was a great way to learn to technology.`,
+    description: `You're looking at it! A personal website intended to be a digital first impression of myself. Created using NextJs and TailwindCSS. It was a great project to learn a new technology.`,
     technologies: [
       {
         title: "Next.Js",
@@ -30,8 +27,8 @@ const projects = [
       { title: "React.Js" },
     ],
     links: {
-      demo: "https://demo1.com",
-      github: "https://github.com/project1",
+      demo: "https://johnerwin.dev",
+      github: "https://github.com/jerwin21/PersonalWebsiteV2",
     },
     imagePath: "/static/images/Portfolio.png",
   },

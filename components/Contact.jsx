@@ -14,12 +14,15 @@ const Contact = () => {
   }
 
   return (
-    <div className="flex justify-center">
-      <h1 className="text-4xl" onClick={openModal}>
-        <span className="highlight-container">
-          <span className="highlight"> get in touch</span>{" "}
-        </span>
-      </h1>
+    <div className="flex justify-center py-4">
+      <a className="cursor-pointer" onClick={openModal}>
+        <h1 className="text-4xl sm:text-5xl">
+          <span className="highlight-container">
+            <span className="highlight"> get in touch</span>{" "}
+          </span>
+        </h1>
+      </a>
+
       <div>
         <ContactModal isOpen={isModalOpen} onClose={closeModal} />
       </div>
