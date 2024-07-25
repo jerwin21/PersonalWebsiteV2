@@ -42,13 +42,14 @@ const Bio = () => {
             On a more personal note, I grew up in a small town called York,
             Nebraska as the oldest child in a large family. Growing up in a
             tight-knit community, I spent my formative years playing team
-            sports, and working in agriculture. Today I reside in Boulder,
-            Colorado. When I'm not writing code, it might be hard to find me. As
+            sports, and working in agriculture. Today I reside in Lincoln,
+            Nebraska. When I'm not writing code, it might be hard to find me. As
             a passionate outdoorsman, I am often without cell service, getting
-            my boots wet and (if I'm lucky) my hands slimy while fishing. During
-            the colder months, you might find me hurdling down a mountain on a
-            snowboard or sitting on a frozen lake, again, trying to get my hands
-            a little slimy with some ice fishing.
+            my boots wet and (if I'm lucky) my hands slimy while fishing. I've
+            also recently found a passion for the ever frustrating sport of
+            golf. During the colder months, you might find me hurdling down a
+            mountain on a snowboard or sitting on a frozen lake, again, trying
+            to get my hands a little slimy with some ice fishing.
           </p>
           <p>
             Well, if you've made it this far, I want to thank you for sticking

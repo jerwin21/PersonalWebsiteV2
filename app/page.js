@@ -19,7 +19,7 @@ export default function Home() {
             <span className="text-6xl sm:text-8xl">John Erwin</span> <br />
             Full Stack Software Engineer <br />
             PenLink <br />
-            Boulder, CO <br />
+            Lincoln, NE <br />
             <div className="px-10 container">
               <ul className="list-disc">
                 <li className="my-5">
