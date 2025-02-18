@@ -7,19 +7,25 @@ export default function Home() {
     <section>
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col justify-start items-center">
-          <Image
+          {/* <Image
             className="mb-10"
             src="/static/images/JohnErwinHello.png"
             alt="John Erwin says Hello!"
             width={700}
             height={200}
-          />
+          /> */}
 
           <h1 className="text-center text-2xl sm:text-4xl">
             <span className="text-6xl sm:text-8xl">John Erwin</span> <br />
-            Full Stack Software Engineer <br />
-            PenLink <br />
-            Lincoln, NE <br />
+            Software Engineer @<br/><br/>
+            <div className="flex flex-col items-center">
+              <img
+                className="mb-2"
+                src="/static/images/NbaLogoSketch.png"
+                alt="John Erwin says Hello!"
+                width="100px"
+              />
+            </div>
             <div className="px-10 container">
               <ul className="list-disc">
                 <li className="my-5">
@@ -29,11 +35,9 @@ export default function Home() {
                       <span className="highlight">projects</span>
                     </span>{" "}
                   </a>
-                  I'm proud of
                 </li>
                 <li className="my-5">
                   <a href="/workschool" className="text-4xl">
-                    work{" "}
                     <span className="highlight-container">
                       <span className="highlight">experience</span>
                     </span>
@@ -46,7 +50,6 @@ export default function Home() {
                       <span className="highlight"> about</span>{" "}
                     </span>
                   </a>{" "}
-                  me
                 </li>
                 <li>
                   <Contact />

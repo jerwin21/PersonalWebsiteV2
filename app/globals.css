@@ -14,20 +14,16 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
     linear-gradient(-90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
     linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px),
-    linear-gradient(
-      transparent 3px,
+    linear-gradient(transparent 3px,
       #f2f2f2 3px,
       #f2f2f2 78px,
-      transparent 78px
-    ),
+      transparent 78px),
     linear-gradient(-90deg, #aaa 1px, transparent 1px),
-    linear-gradient(
-      -90deg,
+    linear-gradient(-90deg,
       transparent 3px,
       #f2f2f2 3px,
       #f2f2f2 78px,
-      transparent 78px
-    ),
+      transparent 78px),
     linear-gradient(#aaa 1px, transparent 1px), #f2f2f2;
   background-size:
     4px 4px,
@@ -44,7 +40,7 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  min-height: 87vh;
+  min-height: 75vh;
 }
 
 .paragraph_link {
@@ -53,7 +49,8 @@ body {
 
 .project-chip {
   display: inline-block;
-  background-color: yellow; /* Post-it note color */
+  background-color: yellow;
+  /* Post-it note color */
   padding: 1px 10px;
   border-radius: 10px 10px 0 0;
   position: relative;
@@ -79,9 +76,12 @@ body {
 
 .tape {
   position: absolute;
-  width: 100px; /* Adjust the width of the tape */
-  height: 200px; /* Adjust the height of the tape */
-  background-image: url("/static/images/CornerTape.png"); /* Path to your tape image */
+  width: 100px;
+  /* Adjust the width of the tape */
+  height: 200px;
+  /* Adjust the height of the tape */
+  background-image: url("/static/images/CornerTape.png");
+  /* Path to your tape image */
 }
 
 .parent {
@@ -164,6 +164,7 @@ body {
 .highlight-container {
   display: inline-block;
 }
+
 .highlight-container:before {
   content: " ";
   display: block;
