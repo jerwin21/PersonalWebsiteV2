@@ -18,7 +18,7 @@ const Socials = () => {
           />
         </a>
         <a
-          href={"https://instagram.com/jim_ervins"}
+          href={"https://instagram.com/jerwizzle"}
           target="_blank"
           rel="noopener noreferrer"
         >

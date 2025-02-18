@@ -9,7 +9,7 @@ const Bio = () => {
           alt="John with a big one"
         />
         <div className="flex flex-col text-md sm:text-lg md:text-2xl leading-tight font-semibold mt-4 space-y-2">
-          <p>
+          {/* <p>
             <span className="text-2xl">Hello! I'm John Erwin</span>, <br /> a
             full-stack software engineer and graduate of{" "}
             <span className="text-red-700">
@@ -17,8 +17,8 @@ const Bio = () => {
             </span>
             , with a degree in computer science and minors in business and
             mathematics.
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             I entered the computer science department at UNL somwhat lacking in
             technical skills, but fortunately I was born with little fear of
             asking "stupid" questions, and by leaning on my people skills and
@@ -61,7 +61,7 @@ const Bio = () => {
             you to explore my projects and experiences, and I'm excited to
             connect and contribute with innovators this field. Don't hesitate to
             reach out!
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

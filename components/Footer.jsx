@@ -7,8 +7,8 @@ const Footer = () => {
         <Image
           src="/static/images/JohnHasAnIdeaTransparent.gif"
           alt="Middle Image"
-          width={150} // Adjust the width based on your requirements
-          height={150} // Adjust the height based on your requirements
+          width={150}
+          height={150} 
         />
         <p className="text-center">@ 2023 John Erwin All Rights Reserved</p>
       </div>
