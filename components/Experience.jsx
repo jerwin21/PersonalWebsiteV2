@@ -3,7 +3,7 @@ import TechChip from "@components/TechChip";
 
 const Experience = ({ experience }) => {
   return (
-    <div className="flex flex-col hand-drawn-border w-full p-4 max-w-6xl">
+    <div className="flex flex-col hand-drawn-border w-full p-10 max-w-6xl">
       <div>
         <p className="text-xl sm:text-3xl ">
           {experience.duration.start} - {experience.duration.end}
